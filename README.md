@@ -13,3 +13,5 @@ Uses the CC3220S UART device to control User LEDs by sending messages ("On" or "
 ![Alt text](./docs/images/on-off-state-machine.png)
 
 ![Alt text](./docs/images/CC3220S-hardware-description.png)
+CC3220 figure retrieved from _TI User's Guide CC3220 SimpleLink™ Wi-Fi® LaunchPad™ Development
+Kit Hardware_. https://www.ti.com/lit/ug/swru463c/swru463c.pdf?ts=1728229889379
