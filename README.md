@@ -1,9 +1,9 @@
 # TI CC3220S Projects
 
 ## Final Project Reflection
-- Summarize the project and what problem it was solving.
+### - Summarize the project and what problem it was solving.
   This project used the CC3220S board to create a smart thermostat prototype that would be connected to the cloud in the future. It read the ambient temperature from the sensor and simulated sending the temperature, setpoint, heat, and seconds elapsed to an API using a simple UART2 setup.
-- What did you do particularly well?
+### - What did you do particularly well?
   What I did well in this project was creating a simple and elegant state machine to solve this problem efficiently. I utilized the correct data types for each variable which prevents using unneccessary memory. 
 - Where could you improve?
   I could improve the project by ensuring that my header files only expose the necessary data to prevent circular dependencies and importing header files that have already been included as a side-effect.
