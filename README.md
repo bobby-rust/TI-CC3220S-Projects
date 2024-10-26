@@ -5,13 +5,13 @@
   This project used the CC3220S board to create a smart thermostat prototype that would be connected to the cloud in the future. It read the ambient temperature from the sensor and simulated sending the temperature, setpoint, heat, and seconds elapsed to an API using a simple UART2 setup.
 ### - What did you do particularly well?
   What I did well in this project was creating a simple and elegant state machine to solve this problem efficiently. I utilized the correct data types for each variable which prevents using unneccessary memory. 
-- Where could you improve?
+### - Where could you improve?
   I could improve the project by ensuring that my header files only expose the necessary data to prevent circular dependencies and importing header files that have already been included as a side-effect.
-- What tools and/or resources are you adding to your support network?
+### - What tools and/or resources are you adding to your support network?
   For TI development, I will be adding the TI E2E support forums to my support network along with the file references TI provides for its header files such as UART2.h File Reference, Timer.h File Reference, and the CC3220S User Guide and Data Sheet.
-- What skills from this project will be particularly transferable to other projects and/or course work?
+### - What skills from this project will be particularly transferable to other projects and/or course work?
   This course was the first time I've ever written code for an embedded system. I learned a lot about different low-level protocols and constructs such as timers, interrupts, I2C, UART, GPIO, and others. At the very least (if I never touch an embedded system again, which I hope is not the case as I enjoyed this), understanding low-level constructs will help me solve higher-level problems more efficiently by understanding how the underlying hardware functions.
-- How did you make this project maintainable, readable, and adaptable?
+### - How did you make this project maintainable, readable, and adaptable?
   To make my project maintainable, readable, and adaptable, I broke down common and simple tasks into their own functions so that everything can be tested individually. I also separated different concerns into different modules such as init, callbacks, and utils, which keeps the main file clean and uncluttered by initialization and other supplemental tasks.
 
 ## GPIO Interrupt
